@@ -1,0 +1,4 @@
+mx.com.agurno.flipmarket.service.impl.MarketLogServiceImpl
+mx.com.agurno.flipmarket.service.impl.ItemCategoryServiceImpl
+mx.com.agurno.flipmarket.service.impl.ItemServiceImpl
+mx.com.agurno.flipmarket.service.impl.UserRoleServiceImpl

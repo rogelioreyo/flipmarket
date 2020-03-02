@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/" reloadable="true" debug="1">
+	<Resource name="jdbc/flipmarket" auth="Container" type="javax.sql.DataSource"
+		username="flipmarket" password="flipmarket" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/flipmarket"
+		maxActive="100" maxIdle="4" maxWait="20000" removeAbandoned="true"
+		testWhileIdle="true" testOnBorrow="true" testOnReturn="false" validationQuery="SELECT 1" validationInterval="30000"
+		timeBetweenEvictionRunsMillis="30000" removeAbandonedTimeout="600"
+		logAbandoned="true" />
+</Context>

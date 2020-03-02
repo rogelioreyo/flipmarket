@@ -1,0 +1,5 @@
+mvn package docker:build -DpushImage
+
+az mesh deployment create --resource-group java --template-file D:\ROGELIOREYO\PERSONAL\workspace\microservicesample\user-catalog-service\javauserms04.windows.json --parameters "{'parameters':{'location': {'value': 'westus'},'registryPassword': {'value': 'rkSvMuoM/yko1IHGyVL4yDuybaZzk2KF'},'registryUserName': {'value': 'acrjava'},'registryServer': {'value': 'acrjava.azurecr.io'},'serviceImage': {'value': 'acrjava.azurecr.io/user-catalog-service:latest'}}}"
+
+az mesh gateway show --resource-group java --name user-catalog-serviceGateway

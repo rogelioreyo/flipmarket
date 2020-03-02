@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: mx.com.agurno.flipmarket.repository.ItemRepositoryIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.839 s - in mx.com.agurno.flipmarket.repository.ItemRepositoryIntegrationTest
