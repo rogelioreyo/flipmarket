@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: flipmarket
-Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: rogel
-Implementation-Vendor-Id: mx.com.agurno
-Build-Jdk: 1.8.0_151
-Implementation-URL: https://agurno.com.mx
-Created-By: Maven Integration for Eclipse
-
